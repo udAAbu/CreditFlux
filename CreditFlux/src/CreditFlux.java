@@ -49,7 +49,7 @@ public class CreditFlux {
                     System.out.println(line);
                 }
                 in.close();
-                System.out.println("end");
+                System.out.println("closing...");
                 proc.waitFor();
             } catch (IOException e) {
                 e.printStackTrace();
