@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "E:/大学文件/senior2/data crawling/creditflux_downloader/main.py", line 33, in func
+    page.download(deal_name, results=args['results'], dest=path)
+  File "E:\大学文件\senior2\data crawling\creditflux_downloader\creditflux.py", line 272, in download
+    writer)
+  File "E:\大学文件\senior2\data crawling\creditflux_downloader\creditflux.py", line 402, in _download_all_results
+    _closewriter=False)
+  File "E:\大学文件\senior2\data crawling\creditflux_downloader\creditflux.py", line 294, in download
+    os.remove(filepath)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:\\大学文件\\senior2\\data crawling\\creditflux_downloader\\threading\\thread1\\Issue_Holdings_2020-04-05.xlsx'
